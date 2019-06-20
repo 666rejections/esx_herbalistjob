@@ -1,0 +1,53 @@
+-----------------------------------------
+-- Created and modify by Slewog
+-----------------------------------------
+Locales['fr'] = {
+	-- General
+	['cloakroom'] = 'Vestiaire',
+	['herbalist_clothes_civil'] = 'Tenue Civil',
+	['herbalist_clothes_work'] = 'Tenue de travail',
+	['veh_menu'] = 'Garage',
+	['spawn_veh'] = 'appuyez sur ~INPUT_CONTEXT~ pour sortir un véhicule',
+	['amount_invalid'] = 'montant invalide',
+	['press_to_open'] = 'appuyez sur ~INPUT_CONTEXT~ pour accéder au menu',
+	['billing'] = 'facuration',
+	['invoice_amount'] = 'montant de la facture',
+	['no_players_near'] = 'aucun joueur à proximité',
+	['store_veh'] = 'appuyez sur ~INPUT_CONTEXT~ pour ranger le véhicule',
+	['comp_earned'] = 'votre société a gagné ~g~$',
+	['deposit_stock'] = 'Déposer Stock',
+	['take_stock'] = 'Prendre Stock',
+	['boss_actions'] = 'action Patron',
+	['quantity'] = 'Quantité',
+	['quantity_invalid'] = '~r~Quantité invalide~w~',
+	['inventory'] = 'Inventaire',
+	['herbalist'] = 'Herboriste',
+	['herbalist_stock'] = 'Stock herboriste',
+	['herbalist_actions'] = ' Actions herboriste',
+	['have_withdrawn'] = 'Vous avez retiré :',
+	['added'] = 'Vous avez ajouté :',
+	['not_enough_place'] = 'Vous n\'avez plus de place',
+	['sale_in_prog'] = 'Revente en cours...', 
+	 
+	-- A modifier selon l'entreprise
+	['herbalist_client'] = 'client herboristerie',
+	['transforming_in_progress'] = 'Transformation de l\'aloe vera en cours',
+	['plant_taken'] = 'Vous être en train de recuprer de l \'aloe vera',
+	['press_traitement'] = 'appuyez sur ~INPUT_CONTEXT~ pour traiter l\'aloe vera',
+	['press_collect'] = 'appuyez sur ~INPUT_CONTEXT~ pour prendre de l\'aloe vera',
+	['press_sell'] = 'appuyez sur ~INPUT_CONTEXT~ pour vendre vos produits',
+	['no_milk_sale'] = 'Vous n\'avez plus ou pas assez de ~r~Lait~w~',
+	['no_cream_sale'] = 'Vous n\'avez plus ou pas assez de ~r~Crème~w~',
+	['not_enough_plant'] = 'Vous n\'avez plus d\'~r~aloe verra~w~',
+	['cream_vera'] = 'Génial, de la ~g~crème d\'aloe vera~w~ !',
+	['plant_farm'] = 'Stock d\'aloe vera',
+	['no_product_sale'] = 'Vous n\'avez plus de produits à vendre',
+	['plant_trait'] = 'Laboratoire de traitement',
+	['plant_sell'] = 'Point de vente',
+	['herbalist_cloakroom'] = 'Herboristerie : Siège social',
+	['vehicle_garage'] = 'Sortie garage véhicule de société',
+	['spawn_point'] = 'Point de spawn du véhicule',
+	['del_vehicle'] = 'Entrées garage véhicule de société',
+	['veh_work'] = ' Vehicule de services',
+
+}
