@@ -40,7 +40,7 @@ AddEventHandler('esx_herbalistjob:startHarvest', function(zone)
 	local _source = source
   	
 	if PlayersHarvesting[_source] == false then
-		TriggerClientEvent('esx:showNotification', _source, '~r~C\'est pas bien d abusés de son travail ~w~')
+		TriggerClientEvent('esx:showNotification', _source, _U('glitch'))
 		PlayersHarvesting[_source]=false
 	else
 		PlayersHarvesting[_source]=true
@@ -56,9 +56,9 @@ AddEventHandler('esx_herbalistjob:stopHarvest', function()
 	
 	if PlayersHarvesting[_source] == true then
 		PlayersHarvesting[_source]=false
-		TriggerClientEvent('esx:showNotification', _source, 'Vous sortez de la ~r~zone')
+		TriggerClientEvent('esx:showNotification', _source, _U('exit_zone'))
 	else
-		TriggerClientEvent('esx:showNotification', _source, 'Vous pouvez ~g~récolter')
+		TriggerClientEvent('esx:showNotification', _source, _U('on_farm'))
 		PlayersHarvesting[_source]=true
 	end
 end)
@@ -102,7 +102,7 @@ AddEventHandler('esx_herbalistjob:startTransform', function(zone)
 	local _source = source
   	
 	if PlayersTransforming[_source] == false then
-		TriggerClientEvent('esx:showNotification', _source, '~r~C\'est pas bien d abusés de son travail ~w~')
+		TriggerClientEvent('esx:showNotification', _source, _U('glitch'))
 		PlayersTransforming[_source]=false
 	else
 		PlayersTransforming[_source]=true
@@ -118,10 +118,10 @@ AddEventHandler('esx_herbalistjob:stopTransform', function()
 	
 	if PlayersTransforming[_source] == true then
 		PlayersTransforming[_source]=false
-		TriggerClientEvent('esx:showNotification', _source, 'Vous sortez de la ~r~zone')
+		TriggerClientEvent('esx:showNotification', _source, _U('exit_zone'))
 		
 	else
-		TriggerClientEvent('esx:showNotification', _source, 'Vous pouvez ~g~transformer votre raisin')
+		TriggerClientEvent('esx:showNotification', _source, _U('trait_aloe'))
 		PlayersTransforming[_source]=true
 		
 	end
@@ -200,7 +200,7 @@ AddEventHandler('esx_herbalistjob:startSell', function(zone)
 	local _source = source
 	
 	if PlayersSelling[_source] == false then
-		TriggerClientEvent('esx:showNotification', _source, '~r~C\'est pas bien d abusés de son travail ~w~')
+		TriggerClientEvent('esx:showNotification', _source, _U('glitch'))
 		PlayersSelling[_source]=false
 	else
 		PlayersSelling[_source]=true
@@ -217,10 +217,10 @@ AddEventHandler('esx_herbalistjob:stopSell', function()
 	
 	if PlayersSelling[_source] == true then
 		PlayersSelling[_source]=false
-		TriggerClientEvent('esx:showNotification', _source, 'Vous sortez de la ~r~zone')
+		TriggerClientEvent('esx:showNotification', _source, _U('exit_zone'))
 		
 	else
-		TriggerClientEvent('esx:showNotification', _source, 'Vous pouvez ~g~vendre')
+		TriggerClientEvent('esx:showNotification', _source, _U('sell_farm'))
 		PlayersSelling[_source]=true
 	end
 

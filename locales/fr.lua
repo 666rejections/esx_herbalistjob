@@ -49,5 +49,10 @@ Locales['fr'] = {
 	['spawn_point'] = 'Point de spawn du véhicule',
 	['del_vehicle'] = 'Entrées garage véhicule de société',
 	['veh_work'] = ' Vehicule de services',
+	['glitch'] ='~r~C\'est pas bien d abusés de son travail ~w~',
+	['on_farm'] ='Vous pouvez ~g~récolter',
+	['exit_zone'] = 'Vous sortez de la ~r~zone',
+	['trait_aloe'] = 'Vous pouvez ~g~transformer votre aloe vera',
+	['sell_farm'] = 'Vous pouvez ~g~vendre',
 
 }
